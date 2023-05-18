@@ -202,7 +202,7 @@ def menu():
 		menu()
 
 
-logging.basicConfig(filename='server.log', level=logging.INFO)
+logging.basicConfig(filename='server.log', encoding='utf-8', level=logging.INFO)
 log_print('Порт пуст')
 
 menu()
